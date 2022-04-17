@@ -34,7 +34,7 @@ function sellerData()
    var s1= new sellersObj(name,category,image,price,gender,sold)  //new return obj
    // console.log(s1)
 
-    //sellersArr.push(s1)
+    sellersArr.push(s1)
     console.log(sellersArr)
     localStorage.setItem("Products",JSON.stringify( sellersArr))
 
